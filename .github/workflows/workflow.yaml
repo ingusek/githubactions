@@ -13,7 +13,7 @@ jobs:
       - run: echo "Job dziala na systemie ${{ runner.os }} by GitHub!"
       - run: echo "Twoj branch ${{ github.ref }} , repozytorium ${{ github.repository }}."
 
-   dodatkowy_build:
+ dodatkowy_build:
      runs-on: ubuntu-latest
 
      steps:
