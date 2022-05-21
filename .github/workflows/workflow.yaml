@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-  	- run: echo "Trigerem jest ${{ github.event_name }} event."
-  	- run: echo "Job dziala na systemie ${{ runner.os }} by GitHub!"
-  	- run: echo "Twoj branch ${{ github.ref }} , repozytorium ${{ github.repository }}."
+      - run: echo "Trigerem jest ${{ github.event_name }} event."
+      - run: echo "Job dziala na systemie ${{ runner.os }} by GitHub!"
+      - run: echo "Twoj branch ${{ github.ref }} , repozytorium ${{ github.repository }}."
